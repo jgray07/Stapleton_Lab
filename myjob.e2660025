@@ -1,2 +1,0 @@
-mkdir: cannot create directory ‘output’: File exists
-/tmp/slurmd/job2660025/slurm_script: line 12: Rscript: command not found

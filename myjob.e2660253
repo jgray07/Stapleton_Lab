@@ -1,4 +1,0 @@
-mkdir: cannot create directory ‘output’: File exists
-running
-  '/opt/apps/intel17/impi17_0/Rstats/3.4.0/lib64/R/bin/R --slave --no-restore --vanilla --file=./Practice.R'
-

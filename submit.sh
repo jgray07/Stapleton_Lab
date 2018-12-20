@@ -10,4 +10,4 @@
 
 # Other commands must follow all #SBATCH directives...
 mkdir output
-Rscript --vanilla --verbose ./Practice.R > ./output.Rout
+Rscript --verbose ./Practice.R > ./output.Rout

@@ -1,1 +1,6 @@
 print("hello world")
+set.seed(1)
+x=rbinom(9,7,.45)
+print(x)
+mean(x)
+sd(x)

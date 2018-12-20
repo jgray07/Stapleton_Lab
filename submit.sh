@@ -7,6 +7,8 @@
 #SBATCH -t 48:00:00        # Run time (hh:mm:ss)
 #SBATCH --mail-user=jg1994@uncw.edu
 #SBATCH --mail-type=all    # Send email at begin and end of job
+
+#module load Rstats
 # Other commands must follow all #SBATCH directives...
 mkdir output
 Rscript --vanilla --verbose ./Practice.R > ./output.Rout

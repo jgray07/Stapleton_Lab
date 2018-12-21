@@ -17,4 +17,4 @@ Env=ifelse(None==T,1,
 
 newdat=cbind(dat[,c(1:5)],Low_W_P,Low_N_P,All,None,Env,dat[,c(6:3240)])
 names(newdat)           
-write.csv(newdat,file="NewManchingPracticeData.csv")
+write.csv(newdat,file="NewManchingPracticeData.csv",na="")

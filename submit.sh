@@ -10,4 +10,4 @@
 
 # Other commands must follow all #SBATCH directives...
 mkdir output
-Rscript --verbose ./familyrandomcombined.R > ./output.Rout
+Rscript --verbose ./FamilyRandomPlot.R > ./output.Rout

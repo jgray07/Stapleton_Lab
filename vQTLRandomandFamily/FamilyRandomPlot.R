@@ -4,7 +4,7 @@ library("vqtl")
 #read in data
 #setwd("~/TBillman/Stapleton-Lab/vQTLRandomandFamily/data/tidied")
 setwd ("/work/06156/jg1994/stampede2/Stapleton_Lab/vQTLRandomandFamily")
-sample <-read.cross(file ="familyrandomsample.csv")
+sample <-read.cross(file ="familyandrandom.csv")
 sample <- drop.nullmarkers(sample)
 #scan with variance
 sample <- calc.genoprob(sample)

@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J Practice         # Job name
+#SBATCH -J FamilyRandom         # Job name
 #SBATCH -e myjob.e%j       # Name of stderr error file
 #SBATCH -p skx-normal          # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes (must be 1 for serial)
@@ -10,4 +10,4 @@
 
 # Other commands must follow all #SBATCH directives...
 mkdir output
-Rscript --verbose ./Practice.R > ./output.Rout
+Rscript --verbose ./familyrandomcombined.R > ./output.Rout

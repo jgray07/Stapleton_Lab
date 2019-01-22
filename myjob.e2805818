@@ -19,3 +19,15 @@ Warning messages:
 4: In summary.cross(cross) :
   Some chromosomes > 1000 cM in length; there may be a problem with the genetic map.
   (Perhaps it is in basepairs?)
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+non-positive values not allowed for the 'gamma' familynon-positive values not allowed for the 'gamma' familynon-positive values not allowed for the 'gamma' familynon-positive values not allowed for the 'gamma' family

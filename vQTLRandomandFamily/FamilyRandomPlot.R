@@ -3,7 +3,7 @@ library("qtl")
 library("vqtl")
 #read in data
 #setwd("~/TBillman/Stapleton-Lab/vQTLRandomandFamily/data/tidied")
-setwd ("/work/06156/jg1994/stampede2/Stapleton_Lab/vQTLRandomandFamily")
+setwd ("/work/06156/jg1994/stampede2/Stapleton_Lab")
 sample <-read.cross(file ="familyandrandom.csv")
 sample <- drop.nullmarkers(sample)
 #scan with variance

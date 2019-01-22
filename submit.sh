@@ -9,5 +9,4 @@
 #SBATCH --mail-type=all    # Send email at begin and end of job
 
 # Other commands must follow all #SBATCH directives...
-mkdir output
 Rscript --verbose ./FamilyRandomPlot.R > ./output.Rout

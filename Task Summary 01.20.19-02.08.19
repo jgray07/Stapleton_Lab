@@ -1,0 +1,17 @@
+General:
+	Completed RCR Training
+	Helped Matthew with GitHub and R
+	Learned how to add descriptions to tasks using Teamline
+
+HSI:
+	Completed Numpy Exercises 
+
+Family-Random:
+	Successfully ran full dataset in stampede
+	Found updated documentation for qtl using addcovarint
+	Extracted chr and pos from the sample data
+	Attempted to use the make qtl function
+
+Future: 
+	Figure out how to use sim.geno and other nested functions of makeqtl
+	Determine if there is anyway to extract p-values without using addcovarint

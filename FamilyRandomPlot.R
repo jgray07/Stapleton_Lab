@@ -2,15 +2,16 @@
 library("qtl")
 library("vqtl")
 #read in data
-#setwd("~/TBillman/Stapleton-Lab/vQTLRandomandFamily/data/tidied")
-setwd ("/work/06156/jg1994/stampede2/Stapleton_Lab")
-sample <-read.cross(file ="familyandrandom.csv")
+setwd("~/Stapleton_Lab/vQTLRandomandFamily/data/tidied")
+#setwd ("/work/06156/jg1994/stampede2/Stapleton_Lab")
+sample <-read.cross(file ="familyrandomsample.csv")
 sample <- drop.nullmarkers(sample)
 #scan with variance
 sample <- calc.genoprob(sample)
+plots=sample$pheno$plotstructure
 outv <- scanonevar(cross = sample,
-                    mean.formula = PlantHeight ~ plotstructure + mean.QTL.add + mean.QTL.dom,
-                    var.formula = ~ plotstructure + var.QTL.add + var.QTL.dom, return.covar.effects = TRUE)
+                    mean.formula = PlantHeight~ mean.QTL.add + mean.QTL.dom,
+                    var.formula = ~ var.QTL.add + var.QTL.dom, addcovarint(sample,pheno.col=1:30,Q1,covar=plots))
 #####Set up our own function to extract effect sizes from mean_var_plot function#####
 library("dplyr")
 library("purrr")

@@ -11,7 +11,7 @@ sample <- calc.genoprob(sample)
 plots=sample$pheno$plotstructure
 outv <- scanonevar(cross = sample,
                     mean.formula = PlantHeight~ mean.QTL.add + mean.QTL.dom,
-                    var.formula = ~ var.QTL.add + var.QTL.dom, addcovarint(sample,pheno.col=1:30,Q1,covar=plots))
+                    var.formula = ~ var.QTL.add + var.QTL.dom)
 #####Set up our own function to extract effect sizes from mean_var_plot function#####
 library("dplyr")
 library("purrr")

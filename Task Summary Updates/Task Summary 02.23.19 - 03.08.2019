@@ -1,0 +1,14 @@
+HSI:
+	Downloaded files from OSF
+
+Family-Random:
+  Reached out to Melissa Ashner and Robert Corty
+  Found and uploaded files used in the example mouse data
+  Met with Dr. Carroll to discuss issuse with corrupted R files
+  Met with Dr. Wang to discuss simulation 
+
+Future: 
+  Continue correspondance with Mr. Corty
+  Remedy issues within the mouse data files that are not working correctly
+  Implement simulation and try to extract pvalues with Thomas's code
+  Work with Julia and Michael based on Mr. Corty's recommendations

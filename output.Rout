@@ -1,0 +1,86 @@
+ --Read the following data:
+	 2078  individuals
+	 3235  markers
+	 4  phenotypes
+ --Cross type: f2 
+[1] "samp"
+    F2 intercross
+
+    No. individuals:    2078 
+
+    No. phenotypes:     4 
+    Percent phenotyped: 100 83.2 83.2 100 
+
+    No. chromosomes:    10 
+        Autosomes:      1 2 3 4 5 6 7 8 9 10 
+
+    Total markers:      3235 
+    No. markers:        531 348 384 320 325 297 270 259 269 232 
+    Percent genotyped:  90.3 
+    Genotypes (%):      AA:51.6  AB:0.0  BB:48.4  not BB:0.0  not AA:0.0 
+         chr  pos PlantHeight tasselbranchNum
+gpm305     1  405       19.12            8.95
+umc1262a   2 1294       21.14            1.70
+mmp38      3 1913       12.51            3.20
+bnlg490    4 2998       15.29            2.45
+gpm893     5 4027       14.44            7.60
+gpm378     6 4715       20.93           14.46
+csu582     7 4758       18.16           13.18
+gpm850a    8 5503       23.03            8.69
+gpm1       9 6467       17.46            5.60
+agrr37c   10 7132        9.27            2.21
+Permutation 5 
+Permutation 10 
+Permutation 15 
+Permutation 20 
+Permutation 25 
+Permutation 30 
+Permutation 35 
+Permutation 40 
+Permutation 45 
+Permutation 50 
+Permutation 55 
+Permutation 60 
+Permutation 65 
+Permutation 70 
+Permutation 75 
+Permutation 80 
+Permutation 85 
+Permutation 90 
+Permutation 95 
+Permutation 100 
+Permutation 5 
+Permutation 10 
+Permutation 15 
+Permutation 20 
+Permutation 25 
+Permutation 30 
+Permutation 35 
+Permutation 40 
+Permutation 45 
+Permutation 50 
+Permutation 55 
+Permutation 60 
+Permutation 65 
+Permutation 70 
+Permutation 75 
+Permutation 80 
+Permutation 85 
+Permutation 90 
+Permutation 95 
+Permutation 100 
+LOD thresholds (100 permutations)
+    PlantHeight tasselbranchNum
+5%         2.71            2.91
+20%        1.80            1.84
+   chr  pos PlantHeight pval  pos tasselbranchNum pval
+1    1  794        4.93    0  301            17.8    0
+2    2 1192        5.23    0 1184            18.8    0
+3    3 2408        4.99    0 1870            16.7    0
+4    4 3025        5.40    0 2837            18.6    0
+5    5 4150        5.86    0 3927            17.9    0
+6    6 4548        5.00    0 4737            16.1    0
+7    7 4782        5.00    0 4757            17.9    0
+8    8 5927        5.37    0 5513            16.4    0
+9    9 6307        5.28    0 6070            15.9    0
+10  10 7045        3.21    0 6874            16.6    0

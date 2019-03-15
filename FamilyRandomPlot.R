@@ -28,4 +28,4 @@ outv$result %>% glimpse()
 # maybe the previous user didn't know about this return.covar.effects argument to scanonevar
 # maybe it's not well documented!
 
-write.csv(outv$result, file = "2019_01_15_FamRand_Output.csv")
+write.csv(outv$result, file = "2019_03_15_FamRand_Output.csv")

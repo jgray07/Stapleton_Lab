@@ -1,7 +1,7 @@
 library(qtl)
 library(vqtl)
-
-sample <-read.cross(file ="familyrandomsample.csv")
+setwd("/work/06156/jg1994/stampede2")
+sample <-read.cross(file ="familyandrandom.csv")
 sample <- drop.nullmarkers(sample)
 #scan with variance
 sample <- calc.genoprob(sample)

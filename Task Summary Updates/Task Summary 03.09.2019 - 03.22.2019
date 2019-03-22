@@ -1,0 +1,19 @@
+
+General:
+	Attended RCR training
+
+HSI:
+	Met with David and Julia to discuss the project
+  Discussed ways to simulate new data and train model and also the foundation of the project
+
+Family-Random:
+  Completed an example from Broman's guide using the family random sample data
+	Talked with Dr. Corty concerning the FamilyPlot R code
+  Found a possible solution to output what we want
+  Ran full dataset with both the interactive and additive models and uploaded it to OSF
+
+Future: 
+	Add a file to OSF explaining how the output was found
+  Begin readthedocs tutorials
+  Possibly begin using the familyplot code on the Manching data
+  Start meeting more frequently with David to be progressing on the HSI project

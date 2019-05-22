@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -J Manching      # Job name
+#SBATCH -J test      # Job name
 #SBATCH -e myjob.e%j       # Name of stderr error file
 #SBATCH -p normal          # Queue (partition) name
 #SBATCH -N 1               # Total # of nodes (must be 1 for serial)
@@ -9,4 +9,4 @@
 #SBATCH --mail-type=all    # Send email at begin and end of job
 
 # Other commands must follow all #SBATCH directives...
-Rscript --verbose ./ManchingPlot.R > ./output.Rout
+Rscript --verbose ./test.R > ./output.Rout

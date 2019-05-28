@@ -4,7 +4,7 @@ library(qtl)
 library(vqtl)
 #we also got rid of "(" in SNP ID rz44bd and rz574bc
 #setwd("/work/06156/jg1994/stampede2/Stapleton_Lab")
-fr <-read.cross(file = "familyrandomsample.csv")
+fr <-read.cross(file = "familyandrandom.csv")
 fr <- drop.nullmarkers(fr)
 #scan with variance
 fr <- calc.genoprob(fr)
@@ -141,4 +141,4 @@ colnames(routvdf) = c("SNP Name",
                       "B Standard Deviation Upper Bound")
 
 
-write.csv(routvdf, file = "FamilyRandom0527.csv")
+write.csv(routvdf, file = "FamilyRandom0528.csv")

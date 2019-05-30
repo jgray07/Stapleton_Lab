@@ -151,7 +151,7 @@ scan <- scanonevar(cross = random,
                    mean.formula = PlantHeight ~ plotstructure * (mean.QTL.add + mean.QTL.dom),
                    var.formula = ~ plotstructure * (var.QTL.add + var.QTL.dom),
                    chrs = 1)
-perm = scanonevar.perm(scan,10, n.cores = 10)
+perm = scanonevar.perm(scan,1, n.cores = 1)
 
 #now doing it will all 10
 
@@ -159,7 +159,7 @@ scanall <- scanonevar(cross = random,
                       mean.formula = PlantHeight ~ plotstructure * (mean.QTL.add + mean.QTL.dom),
                       var.formula = ~ plotstructure * (var.QTL.add + var.QTL.dom),
                       return.covar.effects = TRUE)
-perm = scanonevar.perm(scanall,10, n.cores = 10)
+perm = scanonevar.perm(scanall,1, n.cores = 1)
 
 #finding important SNPs for mean, variance or both
 #current functionality:

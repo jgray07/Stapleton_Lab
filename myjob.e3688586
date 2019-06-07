@@ -43,5 +43,7 @@ Warning messages:
   Some chromosomes > 1000 cM in length; there may be a problem with the genetic map.
   (Perhaps it is in basepairs?)
 calculating genoprobs with stepwidth = 5, off.end = 0, error.prob = 1e-4, map.function = 'haldane'
-calculating genoprobs with stepwidth = 5, off.end = 0, error.prob = 1e-4, map.function = 'haldane'
-slurmstepd: error: *** JOB 3665983 ON c406-074 CANCELLED AT 2019-05-30T11:03:21 DUE TO TIME LIMIT ***
+Error in if (scale <= 0) return(1e+06) : 
+  missing value where TRUE/FALSE needed
+Calls: scanonevar.perm ... <Anonymous> -> fgev.norm -> do.call -> nllh -> nlgev
+Execution halted

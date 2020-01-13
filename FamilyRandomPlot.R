@@ -1,8 +1,7 @@
 library(qtl)
 library(vqtl)
 #setwd("/work/06156/jg1994/stampede2/Stapleton_Lab")
-sample <-read.cross(file ="familyandrandom.csv")
-sample <- drop.nullmarkers(sample)
+sample 
 #scan with variance
 sample <- calc.genoprob(sample)
 

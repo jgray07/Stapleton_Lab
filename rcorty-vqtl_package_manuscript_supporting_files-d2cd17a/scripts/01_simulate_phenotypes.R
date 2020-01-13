@@ -22,4 +22,4 @@ test_cross$pheno$phenotype4 <- rnorm(n = qtl::nind(test_cross),
 																		 sd = exp(0.16*(test_cross$geno$`3`$data[,6] - 2)))
 
 saveRDS(object = test_cross,
-				file = '~/Stapleton_Lab/madeuptest_cross.RDS')
+				file = 'saves/test_cross.RDS')
